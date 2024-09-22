@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="left"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fahrenheit"
+            android:layout_margin="5dp"
+            android:textSize="20pt"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="left"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/ed_f"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="number" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="left"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Celsius"
+            android:layout_margin="5dp"
+            android:textSize="20pt"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="left"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/ed_c"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:ems="10"
+            android:inputType="number" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:gravity="center"
+        android:layout_margin="5dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bt_CC"
+            android:layout_width="145dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@color/xam"
+            android:text="Convert to Celsius"
+            android:textColor="@android:color/black"
+            android:textSize="12pt" />
+
+        <Button
+            android:id="@+id/bt_CF"
+            android:layout_width="145dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@color/xam"
+            android:textSize="12pt"
+            android:text="Convert to Fahrenheit"
+            android:textColor="@android:color/black" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:gravity="center"
+        android:layout_margin="5dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bt_Clear"
+            android:layout_width="500dp"
+            android:layout_height="100dp"
+            android:text="Clear"
+            android:textSize="15pt"
+            android:background="@color/xam"
+            android:textColor="@android:color/black"/>
+
+    </LinearLayout>
+</LinearLayout>
